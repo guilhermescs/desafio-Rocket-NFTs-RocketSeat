@@ -1,0 +1,72 @@
+body {
+    background-image: url(/assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    margin: 57px 82px 0 82px;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+
+header h1 strong {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FF5B50;
+}
+
+nav {
+    display: flex;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    justify-content: space-between;
+}
+
+nav p {
+    margin: auto 60px auto 0;
+}
+
+button {
+    display: flex;
+    width: 230px;
+    height: 50px;
+    padding: auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+button img {
+    margin: auto 15px auto auto;
+}
+
+button p {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin: auto;
+}
