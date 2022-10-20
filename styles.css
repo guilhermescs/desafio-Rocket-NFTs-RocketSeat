@@ -1,15 +1,19 @@
 body {
     background-image: url(/assets/background.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     max-width:1439.56px;
     margin: 0 auto 0 auto;
+    background-color: #0e0e0e;
 }
 
 header {
     display: flex;
-    margin: 57px 82px 0 82px;
+    margin: 15px 82px 0 82px;
     justify-content: space-between;
+}
+main {
+    margin: 0 70px 0 70px;
 }
 
 header h1 {
@@ -51,6 +55,7 @@ button {
     font-size: 16px;
     line-height: 20px;
     color: #000000;
+    margin: auto 0 auto 0;
 }
 
 button img {
@@ -71,7 +76,7 @@ button p {
 .general-info {
     display: flex;
     justify-content: space-between;
-    margin: 90px 82px 100px 82px;
+    margin: 60px 0 100px 0;
 }
 
 .general-info p {
@@ -127,9 +132,12 @@ button p {
 
 table{
     align-items: center;
-    margin: 0 auto 0 auto;
     border-spacing: 0 8px 60px 8px;
 }
 
-.galery td{
+.galery td img{
+    margin: 0 8px 60px 8px;
+    border: 1px solid #fff;
+    width: 90%;
+    height: 90%px;
 }
