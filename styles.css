@@ -141,3 +141,63 @@ table{
     width: 90%;
     height: 90%px;
 }
+
+.main2 {
+    display: flex;
+    border-bottom: 1px solid #5A5757;
+
+}
+.numbers {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #5A5757;
+    border-right: 1px solid #5A5757;
+}
+
+.numbers p {
+    padding: 0 70px 70px 0;
+    margin: 0;
+}
+
+.numbers strong {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    color: #FFFFFF;
+}
+
+.container1 {
+    display: flex;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.container1 p {
+    padding:0 70px 0 70px;
+    width: 391px;
+}
+
+.container1 p strong {
+    color: #FF5B50;
+    font-weight:400;
+}
+
+.container1 p a {
+color: #fff;
+}
+
+.main2 > div > img {
+    max-width: 1158px;
+    max-height: 300px;
+    position: inherit;
+}
