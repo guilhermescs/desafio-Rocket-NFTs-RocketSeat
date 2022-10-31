@@ -202,10 +202,10 @@ color: #fff;
     position: inherit;
 }
 
-.main3 {
-    margin-top: 150px;
+.colunas {
     display: flex;
-}
+justify-content: space-between;}
+
 .main3 h2 {
     font-family: 'Montserrat';
     font-style: normal;
@@ -213,4 +213,44 @@ color: #fff;
     font-size: 50px;
     line-height: 61px;
     color: #FFf;
+    margin-top: 150px;
+}
+
+.colunas h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;    
+    color: #FFFFFF;
+}
+
+.colunas h3 img {
+    margin-left: 105px;
+}
+
+.colunas p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #5A5757;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.colunas p strong {
+    padding-left: 130px;
+    font-weight: 400;
+}
+
+.coluna2 p strong {
+    padding-left: 80px;
+}
+
+.coluna2 hr  {
+    color: transparent;
+    border: 1px solid #5A5757;
+    transform: rotate(90.48deg);
 }
