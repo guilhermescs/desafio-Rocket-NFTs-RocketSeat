@@ -145,6 +145,7 @@ table{
 .main2 {
     display: flex;
     border-bottom: 1px solid #5A5757;
+    margin-top: 80PX;
 
 }
 .numbers {
@@ -314,4 +315,58 @@ justify-content: space-between;}
 .melhores-artistas > p img {
     margin-left: 22px;
     transform: rotate(32.02deg);
+}
+
+footer {
+    margin-top: 150px;
+    background-color: #252525;
+}
+
+.bloco1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    align-items: center;
+    border-bottom: 1px solid #5A5757;
+    padding: 60px;
+}
+
+.bloco1 h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+
+.bloco1 img {
+    padding: 20px;
+    width: 80px;
+    height: 80px;
+    box-sizing: border-box;
+    background: #FF5B50;
+}
+
+.bloco2 {
+    padding: 60px;
+}
+
+.bloco2 p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+.bloco2 form {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #5A5757;
+    background: #0D0D0D;
 }
