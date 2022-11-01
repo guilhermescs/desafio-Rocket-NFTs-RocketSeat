@@ -254,3 +254,64 @@ justify-content: space-between;}
     border: 1px solid #5A5757;
     transform: rotate(90.48deg);
 }
+
+.melhores-artistas {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.melhores-artistas h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    color: #FFFFFF;
+    margin-bottom: 100px;
+}
+
+.artistas{
+    display: flex;
+    flex-wrap:wrap;
+    width: 1287px;
+    justify-content: center;
+}
+
+.artistas div {
+    display: flex;
+    width: 340px;
+    height: 140px;
+    background: #252525;
+    margin: 0 40px 111px 40px;
+    align-items: center;
+}
+
+.artistas div img {
+    width: 80px;
+    height: 80px;
+    margin: 32px;
+}
+
+.artistas div p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF; 
+    text-align: initial;
+}
+
+.melhores-artistas > p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.melhores-artistas > p img {
+    margin-left: 22px;
+    transform: rotate(32.02deg);
+}
