@@ -349,16 +349,27 @@ footer {
 }
 
 .bloco2 {
-    padding: 60px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.bloco2 p{
+.news p{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
     line-height: 37px;
     color: #FFFFFF;
+    font-weight: lighter;
+}
+
+.news {
+    padding:5vh 20vh 5vh 60px;
+    border-right: 1px solid #5A5757;
+}
+
+.news p strong {
+    font-weight: lighter;
 }
 
 .bloco2 form {
@@ -369,4 +380,69 @@ footer {
     line-height: 24px;
     color: #5A5757;
     background: #0D0D0D;
+}
+
+.sumary {
+    display: flex;
+    padding:5vh 10VH 5vh 60px;
+
+}
+
+.sumary p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;    
+    color: #5A5757;
+    padding: 0 40px 0 40px;
+}
+
+.sumary p strong {
+    color: #FFf;
+}
+
+.bloco3 {
+    display: flex;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #5A5757;
+    justify-content: space-between;
+    padding: 60px;
+    border-top: 1px solid #5A5757;
+}
+
+.bloco3 img {
+    padding: 10px;
+}
+
+form {
+    display: flex;
+}
+
+.bloco2 form p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #5A5757;
+    padding: 0 15px 0 15px;
+}
+
+.bloco2 form button {
+    width: 122px;
+    height: 66px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;    
+    color: #000000;
+    
 }
