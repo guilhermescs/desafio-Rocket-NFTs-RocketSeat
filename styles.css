@@ -205,7 +205,8 @@ color: #fff;
 
 .colunas {
     display: flex;
-justify-content: space-between;}
+    justify-content: space-between;
+}
 
 .main3 h2 {
     font-family: 'Montserrat';
@@ -445,4 +446,39 @@ form {
     line-height: 24px;    
     color: #000000;
     
+}
+
+
+@media (max-width: 999px) {
+    body {
+        width: fit-content;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 0;
+        width: fit-content;
+    }
+
+    .sumary {
+        padding: 5vh 20VH 5vh 20vh;
+    }
+
+    .bloco1 {
+        display: none;
+    }
+
+    .bloco2 {
+        width: fit-content;
+        display: flex;
+    }
+
+    .colunas {
+        justify-content: center;
+    }
+  
+    hr {
+        margin: 0 20vh 0 20vh;
+    }
 }
